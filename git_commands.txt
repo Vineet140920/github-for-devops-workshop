@@ -1,10 +1,12 @@
 git init
-  383  git status
-  384  git add testing.py
-  385  git status
-  386  git commit -m "Added testing file"
-  387  git status
-  388  rm testing.py
-  389  ls
-  390  git status
-  391  git restore testing.py
+git status
+git add testing.py
+  git status
+  git commit -m "Added testing file"
+  git status
+  rm testing.py
+   ls
+git status
+ git restore testing.py
+git push origin master
+ git remote set-url origin -v
